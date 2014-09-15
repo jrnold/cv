@@ -10,55 +10,36 @@ $endfor$
 $if(date-meta)$
   <meta name="dcterms.date" content="$date-meta$">
 $endif$
-  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+  <title>$title-meta$</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-$if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
-$endif$
-$if(highlighting-css)$
-  <style type="text/css">
-$highlighting-css$
-  </style>
-$endif$
-$for(css)$
-  <link rel="stylesheet" href="$css$">
-$endfor$
-$if(math)$
-  $math$
-$endif$
-$for(header-includes)$
-  $header-includes$
-$endfor$
+  <!-- <link rel="stylesheet" href="$css$"> -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-$for(include-before)$
-$include-before$
-$endfor$
-$if(title)$
+
 <header>
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<h1 class="subtitle">$subtitle$</h1>
-$endif$
-$for(author)$
-<h2 class="author">$author$</h2>
-$endfor$
-$if(date)$
-<h3 class="date">$date$</h3>
-$endif$
-</header>
-$endif$
-$if(toc)$
-<nav id="$idprefix$TOC">
-$toc$
-</nav>
-$endif$
+<h1 class="author">$author$</h1>
+
+<div id="pdf-link"><a href="$pdf-link">pdf</a> version</div>
+<div id="contact-info">
+  <div id="contact-address">
+    <a href="$department-site$">$department$</a> <br>
+    $institution$ <br>
+    $address-box$ <br>
+    $address-city$, $address-state$ $address-zip$
+  </div>
+  <div id="contact-media">
+    <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
+    <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
+    <i class="fa fa-globe"></i> <a href="$website$">$website$</a> <br>
+  </div>
+</div>
+
 $body$
-$for(include-after)$
-$include-after$
-$endfor$
+
 </body>
 </html>

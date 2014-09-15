@@ -1,12 +1,11 @@
-% this should only by used with xetex
+% this should only by used with xelatex
 \documentclass[10pt,article,oneside]{memoir}
 \usepackage{fontspec}
+\usepackage{fontawesome}
 \usepackage{amssymb,amsmath}
 
 \usepackage[paper=letterpaper,
-            marginparwidth=2in,     
-            marginparsep=.05in,     
-            margin=0.5in,           
+            margin=1in,
             includemp]{geometry}
 \setlength\parindent{0in}
 
@@ -14,8 +13,8 @@
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \defaultfontfeatures{Mapping=tex-text}
-\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Sorts Mill Goudy}
-\setsansfont [Ligatures={Common}]{Open Sans}
+\setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Sorts Mill Goudy}
+\setsansfont[Ligatures={Common}]{Open Sans}
 \setmonofont[Scale=0.8]{DejaVu Sans Mono}
 
 \usepackage[setpagesize=false, % page size defined by xetex
@@ -37,35 +36,48 @@
 
 % turn off numbered sections
 \usepackage{titlesec}
-\titleformat{\section}[hang]{\mdseries\sffamily\large}{}{1ex}{}
+\titleformat{\section}[hang]{\mdseries\sffamily\large}{}{0pt}{}
 % TODO: turn sections to marginheaders
 
 \usepackage{enumitem}
-\setlist[itemize,1]{label=}
+\setlist[itemize,1]{label=,leftmargin=!,labelindent=5pt,itemindent=-15pt,topsep=0pt}
 \setlist[itemize,2]{label=$$\bullet$$}
 
 \begin{document}
 
-\begin{center}
-  \Huge \sffamily \bfseries $author$
-\end{center}
+% Contact Info ----------------------------------
 
-$for(include-before)$
-$include-before$
-$endfor$
+\begin{minipage}[t]{2.95in}
+ \flushright {\footnotesize
+ \href{$department-site$}{$department$}, \\
+ $institution$, \\
+ $address-box$, \\
+ $address-city$,
+ \textsc{$address-state$} $address-zip$.}
+
+\end{minipage}
+\hfill
+\hfill
+\begin{minipage}[t]{1.3in}
+  \flushright \footnotesize
+  {\scriptsize  \href{mailto:$email-personal$}{$email-personal$} \, \faEnvelope} \\
+  {\scriptsize  \href{mailto:$email-work$}{$email-work$} \, \faEnvelope} \\
+  {\scriptsize  \url{$website$} \, \faGlobe}
+\end{minipage}
+\medskip
+
+%------------------------
+
+
+\begin{flushleft}
+  \Large \sffamily \scshape \bfseries $author$
+\end{flushleft}
+\medskip{}
 
 $body$
 
-$for(include-after)$
-$include-after$
-$endfor$
-
-\begin{center}
-  Last updated: $date$  
-\end{center}
-
 \end{document}
-%%% Local Variables: 
+%%% Local Variables:
 %%% mode: latex
 %%% TeX-master: t
-%%% End: 
+%%% End:
