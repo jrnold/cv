@@ -1,0 +1,7 @@
+*.log
+*.pdf
+*.dvi
+*.bak
+*.out
+/Arnold_Jeffrey_CV.html
+/Arnold_Jeffrey_CV.tex

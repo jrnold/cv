@@ -1,0 +1,71 @@
+% this should only by used with xetex
+\documentclass[10pt,article,oneside]{memoir}
+\usepackage{fontspec}
+\usepackage{amssymb,amsmath}
+
+\usepackage[paper=letterpaper,
+            marginparwidth=2in,     
+            marginparsep=.05in,     
+            margin=0.5in,           
+            includemp]{geometry}
+\setlength\parindent{0in}
+
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Sorts Mill Goudy}
+\setsansfont [Ligatures={Common}]{Open Sans}
+\setmonofont[Scale=0.8]{DejaVu Sans Mono}
+
+\usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={$author-meta$},
+            pdftitle={$title-meta$},
+            pdfkeywords=$for(keywords)$
+            {$keywords$}
+            $endfor$,
+            colorlinks=true,
+            citecolor=black,
+            urlcolor=black,
+            linkcolor=black,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+% turn off numbered sections
+\usepackage{titlesec}
+\titleformat{\section}[hang]{\mdseries\sffamily\large}{}{1ex}{}
+% TODO: turn sections to marginheaders
+
+\usepackage{enumitem}
+\setlist[itemize,1]{label=}
+\setlist[itemize,2]{label=$$\bullet$$}
+
+\begin{document}
+
+\begin{center}
+  \Huge \sffamily \bfseries $author$
+\end{center}
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$body$
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+\begin{center}
+  Last updated: $date$  
+\end{center}
+
+\end{document}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
