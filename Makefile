@@ -37,4 +37,8 @@ build: $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	@echo $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	cp -R css $(OUTPUT_DIR)
 
+deploy: 
+	git merge -s subtree master
+	git push -f origin gh-pages
+
 .PRECIOUS: $(TEX_FILE)
