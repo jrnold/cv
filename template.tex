@@ -34,6 +34,13 @@
             pdfborder={0 0 0}}
 \urlstyle{same}  % don't use monospace font for urls
 
+\makepagestyle{jrnoldcv}
+\makeevenhead{jrnoldcv}{}{}{\scshape\thepage}
+\makeoddhead{jrnoldcv}{}{}{\scshape\thepage}
+\makeevenfoot{jrnoldcv}{}{}{\footnotesize Last Modified: $timestamp$}
+\makeoddfoot{jrnoldcv}{}{}{\footnotesize Last Modified: $timestamp$}
+\pagestyle{jrnoldcv}
+
 % turn off numbered sections
 \usepackage{titlesec}
 \titleformat{\section}[hang]{\mdseries\sffamily\large}{}{0pt}{}

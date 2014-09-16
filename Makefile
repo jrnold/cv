@@ -5,17 +5,24 @@ TEX_FILE = $(SRC:%.md=%.tex)
 PDF_FILE = $(SRC:%.md=$(OUTPUT_DIR)/%.pdf)
 HTML_FILE = $(OUTPUT_DIR)/index.html
 
+GITHUB_SRC = https://github.com/jrnold/jrnold-cv
+GIT_TIMESTAMP = $(shell git --no-pager log -1 HEAD --pretty=format:"%cD")
+GIT_REV = $(shell git --no-pager log -1 HEAD --pretty=format:"%h")
+TIMESTAMP = $(shell date)
+
 PANDOC = pandoc
 LATEX = xelatex
 OPTS := -f markdown+yaml_metadata_block 
 OPTS += -M date="$(shell date +'%B %d, %Y')"
-OPTS += -M date-meta="$(shell date +'%B %d, %Y')"
-OPTS += -M src-meta="$(shell date +'%B %d, %Y')"
+OPTS += -M timestamp="$(TIMESTAMP)"
+OPTS += -M date-meta="$(TIMESTAMP)"
 OPTS += --smart
 OPTS += --filter pandoc-citeproc --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
 OPTS += --filter ./removebib.py
 OPTS += -M pdf-link=$(notdir $(PDF_FILE))
-OPTS += -M src-link="https://github.com/jrnold/jrnold-cv"
+OPTS += -M github-src="$(GITHUB_SRC)"
+OPTS += -M git-timestamp="$(GIT_TIMESTAMP)"
+OPTS += -M git-rev="$(GIT_REV)"
 LATEX_TEMPLATE = template.tex
 HTML_TEMPLATE = template.html
 
