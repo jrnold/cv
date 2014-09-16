@@ -5,6 +5,11 @@ author-meta: Jeffrey B. Arnold
 title-meta: Curriculum Vitae of Jeffrey B. Arnold
 keywords: ["Jeffrey Arnold", "Vita", "CV", "Resume", "Political Science"]
 website: http://jrnold.me
+website-short: jrnold.me
+github: https://github.com/jrnold
+github-short: github.com/jrnold
+linkedin: https://www.linkedin.com/in/jrnold
+linkedin-short: www.linkedin.com/in/jrnold
 email-personal: jeffrey.arnold@gmail.com
 email-work: jrnold@uw.edu
 institution: University of Washington

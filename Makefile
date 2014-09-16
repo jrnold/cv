@@ -10,9 +10,12 @@ LATEX = xelatex
 OPTS := -f markdown+yaml_metadata_block 
 OPTS += -M date="$(shell date +'%B %d, %Y')"
 OPTS += -M date-meta="$(shell date +'%B %d, %Y')"
+OPTS += -M src-meta="$(shell date +'%B %d, %Y')"
 OPTS += --smart
 OPTS += --filter pandoc-citeproc --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
 OPTS += --filter ./removebib.py
+OPTS += -M pdf-link=$(notdir $(PDF_FILE))
+OPTS += -M src-link="https://github.com/jrnold/jrnold-cv"
 LATEX_TEMPLATE = template.tex
 HTML_TEMPLATE = template.html
 
@@ -24,7 +27,7 @@ $(OUTPUT_DIR):
 	-mkdir $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/index.html: $(SRC) $(HTML_TEMPLATE)
-	$(PANDOC) $(OPTS) --template=$(HTML_TEMPLATE) -M css=$(CSS_FILE) -M pdf-link=$(notdir $(PDF_FILE)) -o $@ $<
+	$(PANDOC) $(OPTS) --template=$(HTML_TEMPLATE) -M css=$(CSS_FILE) -o $@ $<
 
 %.tex: %.md $(LATEX_TEMPLATE)
 	$(PANDOC) $(OPTS) --template=$(LATEX_TEMPLATE) -o $@ $<
