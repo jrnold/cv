@@ -18,24 +18,34 @@ $endif$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
   <!-- <link rel="stylesheet" href="$css$"> -->
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body>
 
 <header>
-<h1 class="author">$author$</h1>
+  <div id="pdf-link">
+    <p>
+      <a href="$pdf-link$">Download the pdf version</a> 
+    </p>
+  </div>
+  <h1 class="author">$author$</h1>
+</header>
 
-<div id="pdf-link"><a href="$pdf-link$">pdf</a> version</div>
 <div id="contact-info">
   <div id="contact-address">
-    <a href="$department-site$">$department$</a> <br>
-    $institution$ <br>
-    $address-box$ <br>
-    $address-city$, $address-state$ $address-zip$
+    <p>
+      <a href="$department-site$">$department$</a> <br>
+      $institution$ <br>
+      $address-box$ <br>
+      $address-city$, $address-state$ $address-zip$
+    </p>
   </div>
   <div id="contact-media">
-    <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
-    <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
-    <i class="fa fa-globe"></i> <a href="$website$">$website$</a> <br>
+    <p>
+      <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
+      <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
+      <i class="fa fa-globe"></i> <a href="$website$">$website$</a> <br>
+    </p>
   </div>
 </div>
 

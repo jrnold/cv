@@ -82,7 +82,7 @@ address-zip: 98195
 # Professional & Departmental Service
 
 - Center for Statistics and the Social Sciences (CSSS) Seminar, 2014--2015
-- International Studies Association (ISA) 2014 Working Group,  ``Forecasting International Events'', sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino. http://www.isanet.org/Conferences/Toronto2014/Program/WorkingGroups.aspx
+- International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
 - Summer Workshop on Analysis of Military Operations and Strategy
 (SWAMOS).  Saltzman Institute for War and Peace Studies, Columbia
 University, 2012.
