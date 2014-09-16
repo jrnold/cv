@@ -46,30 +46,25 @@ address-zip: 98195
 
 # Publications
 
-- "The Topology of Interbank Payments Flows," with Kimmo Soramäki, Morten L. Bech, Robert J. Glass, and Walter E. Beyeler, *Physica A*, Vol. 379, No. 1 (June), pg. 317-333 http://dx.doi.org/10.1016/j.physa.2006.11.093. Working paper, *Federal Reserve Bank of New York Staff Reports*, No. 243 (March 2006), http://www.ny.frb.org/research/staff_reports/sr243.html
-- "Changes in the Timing Distribution of Fedwire Funds Transfers," with Olivier Armantier and James J. McAndrews, *Federal Reserve Bank of New York Economic Policy Review*, Vol. 14, No. 2, September 2008, http://www.neywsorkfed.org/research/epr/08v14n2/0809arma.html
+- @SoramakiBechArnoldEtAl2006
+- @ArmantierArnoldMcAndrews2008
 
 # Working Papers
 
-- "Pricing the Costly Lottery: Financial Market Reactions to
-Battlefield Events in the American Civil War" (2013) https://s3.amazonaws.com/docs.jrnold.me/Pricing_the_Costly_Lottery_v_1_4.pdf
-- "Producing Death: A Bayesian Hierarchical Model of the Technology of War" (2012) https://s3.amazonaws.com/docs.jrnold.me/producing_death_2012-04-09.pdf
-- "Civil War As a Hidden Markov Model" (2011) https://s3.amazonaws.com/docs.jrnold.me/cwhmm_2011-06-02.pdf
-- "Who Does History Remember? Using Wikipedia to Measure the Historical Reputation of Leaders" with H. E. Goemans (2012) https://s3.amazonaws.com/docs.jrnold.me/Arnold_Goemans_Leaders_Fame.pdf
+- @Arnold2013
+- @Arnold2012
+- @ArnoldGoemans2012
 
 # Conference Presentations
 
 - Annual Meeting of the American Political Science Association, Chicago, IL, August 30, 2013.
-- "Modeling Changepoints by Time-Varying Parameters and Sparse Priors", poster, PolMeth XXX, Charlottesville, VA, July 18, 2013.
-- "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War," Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12, 2013.
-- "Producing Death: Estimating the Offense-Defense Balance from the Production Function of Battle Casualties" Battlefield Events in the American Civil War," Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12, 2013.
-- "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War," 2011 Meeting of the Peace Science Society, Savannah, GA, October 26, 2012.
-- "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War," poster, 2012 Meeting of the American Political Science Association.
-- "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War," poster, PolMeth XXIX, Raleigh, NC, 2012, July 19.
-- "Who Does History Remember? Using Wikipedia to Measure the Historical Reputation of Leaders," with H. E. Goemans, Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 13, 2012.
-- "Producing Death: Modeling and Estimating the Technology of Conflict," Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12, 2012.
-- "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War," 2011 Meeting of the Peace Science Society, Los Angeles, CA, October 15, 2011.
-- "Destruction or Revelation? Estimating the Influence of Battles on Financial Market Expectations during the the American Civil War," poster, 2011 Meeting of the American Political Science Association, Seattle, WA, September 2, 2011.
+- PolMeth XXX, Charlottesville, VA, July 18, 2013. "Modeling Changepoints by Time-Varying Parameters and Sparse Priors" (poster)
+- Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12, 2013: "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War", "Producing Death: Estimating the Offense-Defense Balance from the Production Function of Battle Casualties".
+- 2011 Meeting of the Peace Science Society, Savannah, GA, October 26, 2012: "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War"
+- PolMeth XXIX, Raleigh, NC, 2012, July 19: "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War" (poster)
+- Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12--13, 2012: "Who Does History Remember? Using Wikipedia to Measure the Historical Reputation of Leaders", "Producing Death: Modeling and Estimating the Technology of Conflict".
+- 2011 Meeting of the Peace Science Society, Los Angeles, CA, October 15, 2011: "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War"
+- 2011 Meeting of the American Political Science Association, Seattle, WA, September 2, 2011: "Destruction or Revelation? Estimating the Influence of Battles on Financial Market Expectations during the the American Civil War" (poster).
 
 # Honors & Awards
 

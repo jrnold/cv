@@ -11,6 +11,8 @@ OPTS := -f markdown+yaml_metadata_block
 OPTS += -M date="$(shell date +'%B %d, %Y')"
 OPTS += -M date-meta="$(shell date +'%B %d, %Y')"
 OPTS += --smart
+OPTS += --filter pandoc-citeproc --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
+OPTS += --filter ./removebib.py
 LATEX_TEMPLATE = template.tex
 HTML_TEMPLATE = template.html
 
@@ -19,7 +21,7 @@ CSS_FILE = css/jrnoldcv.css
 all: build
 
 $(OUTPUT_DIR):
-	mkdir $(OUTPUT_DIR)
+	-mkdir $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/index.html: $(SRC) $(HTML_TEMPLATE)
 	$(PANDOC) $(OPTS) --template=$(HTML_TEMPLATE) -M css=$(CSS_FILE) -M pdf-link=$(notdir $(PDF_FILE)) -o $@ $<
@@ -35,4 +37,4 @@ build: $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	@echo $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	cp -R css $(OUTPUT_DIR)
 
-
+.PRECIOUS: $(TEX_FILE)
