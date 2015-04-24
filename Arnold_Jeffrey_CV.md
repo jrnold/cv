@@ -62,6 +62,7 @@ address-zip: 98195
 
 # Conference Presentations
 
+- 2014 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. Empirical Implications of the Bargaining Model workshop.
 - Annual Meeting of the American Political Science Association, Chicago, IL, August 30, 2013.
 - PolMeth XXX, Charlottesville, VA, July 18, 2013. "Modeling Changepoints by Time-Varying Parameters and Sparse Priors" (poster)
 - Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 12, 2013: "Pricing the Costly Lottery: Financial Market Reactions to Battlefield Events in the American Civil War", "Producing Death: Estimating the Offense-Defense Balance from the Production Function of Battle Casualties".
