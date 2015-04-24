@@ -42,7 +42,7 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, *expected in 2014-2015*
+	- Ph.D. in Political Science, *expected in 2015*
 	- M.A. in Political Science, March 2012
 
 - *Dartmouth College*
