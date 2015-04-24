@@ -23,8 +23,12 @@ OPTS += -M pdf-link=$(notdir $(PDF_FILE))
 OPTS += -M github-src="$(GITHUB_SRC)"
 OPTS += -M git-timestamp="$(GIT_TIMESTAMP)"
 OPTS += -M git-rev="$(GIT_REV)"
+
 LATEX_TEMPLATE = template.tex
 HTML_TEMPLATE = template.html
+
+HTML_OPTS = --self-contained --template=$(HTML_TEMPLATE) -M css=$(CSS_FILE)
+LATEX_OPTS = --template=$(LATEX_TEMPLATE)
 
 CSS_FILE = css/jrnoldcv.css
 
@@ -34,10 +38,10 @@ $(OUTPUT_DIR):
 	-mkdir $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/index.html: $(SRC) $(HTML_TEMPLATE)
-	$(PANDOC) $(OPTS) --template=$(HTML_TEMPLATE) -M css=$(CSS_FILE) -o $@ $<
+	$(PANDOC) $(OPTS) $(HTML_OPTS) -o $@ $<
 
 %.tex: %.md $(LATEX_TEMPLATE)
-	$(PANDOC) $(OPTS) --template=$(LATEX_TEMPLATE) -o $@ $<
+	$(PANDOC) $(OPTS) $(LATEX_OPTS) -o $@ $<
 
 $(OUTPUT_DIR)/%.pdf: %.tex
 	$(LATEX) -interaction nonstopmode -output-directory $(OUTPUT_DIR) $<
