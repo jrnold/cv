@@ -10,14 +10,15 @@ GIT_TIMESTAMP = $(shell git --no-pager log -1 HEAD --pretty=format:"%cD")
 GIT_REV = $(shell git --no-pager log -1 HEAD --pretty=format:"%h")
 TIMESTAMP = $(shell date)
 
-PANDOC = $(HOME)/.cabal/bin/pandoc
+PANDOC = pandoc
+PANDOC_CITEPROC = pandoc-citeproc
 LATEX = xelatex
 OPTS := -f markdown+yaml_metadata_block 
 OPTS += -M date="$(shell date +'%B %d, %Y')"
 OPTS += -M timestamp="$(TIMESTAMP)"
 OPTS += -M date-meta="$(TIMESTAMP)"
 OPTS += --smart
-OPTS += --filter $(HOME)/.cabal/bin/pandoc-citeproc --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
+OPTS += --filter $(PANDOC_CITEPROC) --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
 OPTS += --filter ./removebib.py
 OPTS += -M pdf-link=$(notdir $(PDF_FILE))
 OPTS += -M github-src="$(GITHUB_SRC)"
