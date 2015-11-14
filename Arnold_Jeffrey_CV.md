@@ -25,12 +25,12 @@ address-zip: 98195
 
 - *University of Washington*
 
-	- Acting Assistant Professor of Political Science, Sep 2014--*present*
-	- Core Faculty Member of the Center for Statistics and the Social Sciences, Sep 2014--*present*
+	- Acting Assistant Professor of Political Science, Sept 2014--*present*
+	- Core Faculty Member of the Center for Statistics and the Social Sciences, Sept 2014--*present*
 
 - *Emory University*
 
-    - Instructor of Political Science, Sep 2013--Aug 2014
+    - Instructor of Political Science, Sept 2013--Aug 2014
 
 - *Federal Reserve Bank of New York*
 
@@ -42,8 +42,8 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, *expected in 2015*
-	- M.A. in Political Science, March 2012
+	- Ph.D. in Political Science, Mar 2016
+	- M.A. in Political Science, Mar 2012
 
 - *Dartmouth College*
 
@@ -54,14 +54,10 @@ address-zip: 98195
 - @SoramakiBechArnoldEtAl2006
 - @ArmantierArnoldMcAndrews2008
 
-# Working Papers
-
-- @Arnold2013
-- @Arnold2012
-- @ArnoldGoemans2012
 
 # Conference Presentations
 
+- 2015 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. The American Civil War and International Relations workshop.
 - 2014 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. Empirical Implications of the Bargaining Model workshop.
 - Annual Meeting of the American Political Science Association, Chicago, IL, August 30, 2013.
 - PolMeth XXX, Charlottesville, VA, July 18, 2013. "Modeling Changepoints by Time-Varying Parameters and Sparse Priors" (poster)
