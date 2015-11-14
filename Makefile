@@ -49,7 +49,6 @@ $(OUTPUT_DIR)/%.pdf: %.tex
 	-cd $(OUTPUT_DIR) && rm *.log *.aux *.out
 
 build: $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
-	@echo $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	cp -R css $(OUTPUT_DIR)
 
 deploy: 
