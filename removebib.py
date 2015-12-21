@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Pandoc filter to remove the bibliography added by pandoc-citeproc
 """

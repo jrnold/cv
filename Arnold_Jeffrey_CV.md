@@ -25,12 +25,12 @@ address-zip: 98195
 
 - *University of Washington*
 
-	- Acting Assistant Professor of Political Science, Sept 2014--*present*
-	- Core Faculty Member of the Center for Statistics and the Social Sciences, Sept 2014--*present*
+	- Acting Assistant Professor of Political Science, September 2014--*present*
+	- Core Faculty Member of the Center for Statistics and the Social Sciences, September 2014--*present*
 
 - *Emory University*
 
-    - Instructor of Political Science, Sept 2013--Aug 2014
+    - Instructor of Political Science, September 2013--August 2014
 
 - *Federal Reserve Bank of New York*
 
@@ -42,8 +42,9 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, Mar 2016
-	- M.A. in Political Science, Mar 2012
+	- Ph.D. in Political Science, March 2016
+	- M.A. in Political Science, March 2012
+	- Dissertation: *Three Essays on Conflict and Financial Markets, and Political Methodology*
 
 - *Dartmouth College*
 
@@ -57,7 +58,7 @@ address-zip: 98195
 
 # Conference Presentations
 
-- 2015 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. The American Civil War and International Relations workshop.
+- 2015 Meeting of the Peace Science Society, Oxford, MS, November 12, 2015. The American Civil War and International Relations workshop.
 - 2014 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. Empirical Implications of the Bargaining Model workshop.
 - Annual Meeting of the American Political Science Association, Chicago, IL, August 30, 2013.
 - PolMeth XXX, Charlottesville, VA, July 18, 2013. "Modeling Changepoints by Time-Varying Parameters and Sparse Priors" (poster)
@@ -71,7 +72,7 @@ address-zip: 98195
 # Honors & Awards
 
 - [QuanTM Pre-doctoral Fellow](http://quantitative.emory.edu), QuanTM Institute for Quantitative Theory and Methods, Emory University, January--May 2013
-- [Star Lab Poster Award](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester
+- [Star Lab Poster gAward](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester
 - [Star Lab Best Conference Presentation](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester, 2011--2012
 - APSA 2011 Annual Meeting Graduate Student Travel Grant, APSA
 - Graduate Student Teaching Award, Department of Political Science, University of Rochester, 2011
@@ -88,11 +89,14 @@ address-zip: 98195
 - Summer Workshop on Analysis of Military Operations and Strategy
 (SWAMOS).  Saltzman Institute for War and Peace Studies, Columbia
 University, 2012.
-- Reviewer for *Conflict Management and Peace Science*
+- Reviewer for *Conflict Management and Peace Science*, *International Interactions*, *International Studies Quarterly*
+- Member of the American Political Science Society, Midwest Political Science Society, Peace Science Society, and the Society for Political Methodology.
+
 
 # Software
 
 - [ggthemes](http://cran.r-project.org/web/packages/ggthemes/index.html): R package with extra themes, scales and geoms for ggplot2.
+- [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html): R client for the HuffingtonPost Pollster API. An [ROpenGov](http://ropengov.github.io/) package.
 - [smss](http://cran.r-project.org/web/packages/smss/index.html): R package with datasets from *Statistical Methods for the Social Sciences* by Alan Agresti and Barbara Finlay.
 - [stan-mode](https://github.com/stan-dev/stan-mode): Emacs-lisp major mode for Stan.
 - Contributions to:
