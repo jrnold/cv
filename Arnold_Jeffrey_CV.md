@@ -42,8 +42,8 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, March 2016
-	- M.A. in Political Science, March 2012
+	- Ph.D. in Political Science, 2015
+	- M.A. in Political Science, 2012
 	- Dissertation: *Three Essays on Conflict and Financial Markets, and Political Methodology*
 
 - *Dartmouth College*
@@ -54,7 +54,6 @@ address-zip: 98195
 
 - @SoramakiBechArnoldEtAl2006
 - @ArmantierArnoldMcAndrews2008
-
 
 # Conference Presentations
 
@@ -84,7 +83,8 @@ address-zip: 98195
 
 # Professional & Departmental Service
 
-- Center for Statistics and the Social Sciences (CSSS) Seminar, 2014--2015
+- Software Carpentry: Helper, University of Washington Workshop, Jan 7--8, 2016.
+- Organizer Center for Statistics and the Social Sciences (CSSS) Seminar, 2014--2016
 - International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
 - Summer Workshop on Analysis of Military Operations and Strategy
 (SWAMOS).  Saltzman Institute for War and Peace Studies, Columbia
@@ -99,8 +99,3 @@ University, 2012.
 - [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html): R client for the HuffingtonPost Pollster API. An [ROpenGov](http://ropengov.github.io/) package.
 - [smss](http://cran.r-project.org/web/packages/smss/index.html): R package with datasets from *Statistical Methods for the Social Sciences* by Alan Agresti and Barbara Finlay.
 - [stan-mode](https://github.com/stan-dev/stan-mode): Emacs-lisp major mode for Stan.
-- Contributions to:
-    - Stan (C++): added support for dynamic linear models, miscellaneous bug fixes.
-	- knitr (R): ReST support.
-	- pygments (python): Stan, BUGS, Jags, R, and Rd lexers.
-	- scales (R), extrafont (R), ESS (Emacs lisp).
