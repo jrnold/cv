@@ -42,7 +42,7 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, March 2016
+	- Ph.D. in Political Science, December 2015
 	- M.A. in Political Science, March 2012
 	- Dissertation: *Three Essays on Conflict and Financial Markets, and Political Methodology*
 
