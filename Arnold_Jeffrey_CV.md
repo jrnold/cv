@@ -42,8 +42,8 @@ address-zip: 98195
 
 - *University of Rochester*
 
-	- Ph.D. in Political Science, 2015
-	- M.A. in Political Science, 2012
+	- Ph.D. in Political Science, December 2015
+	- M.A. in Political Science, March 2012
 	- Dissertation: *Three Essays on Conflict and Financial Markets, and Political Methodology*
 
 - *Dartmouth College*
@@ -57,6 +57,7 @@ address-zip: 98195
 
 # Conference Presentations
 
+- Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 7--12, 2016: "Ideology, Appointments, and Battlefield Outcomes", "Bayesian Change Points and Linear Filtering with Shrinkage Priors".
 - 2015 Meeting of the Peace Science Society, Oxford, MS, November 12, 2015. The American Civil War and International Relations workshop.
 - 2014 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. Empirical Implications of the Bargaining Model workshop.
 - Annual Meeting of the American Political Science Association, Chicago, IL, August 30, 2013.

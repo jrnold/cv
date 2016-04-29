@@ -51,7 +51,5 @@ $(OUTPUT_DIR)/%.pdf: %.tex
 build: $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
 	cp -R css $(OUTPUT_DIR)
 
-deploy: 
-	git subtree push --prefix output origin gh-pages
 
 .PRECIOUS: $(TEX_FILE)
