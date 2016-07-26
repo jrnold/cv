@@ -85,7 +85,7 @@ address-zip: 98195
 
 # Professional & Departmental Service
 
-- Software Carpentry: Helper, University of Washington Workshop, Jan 7--8, 2016.
+- [Software Carpentry](https://software-carpentry.org) Certified Instructor, 2016--
 - Organizer Center for Statistics and the Social Sciences (CSSS) Seminar, 2014--2016
 - International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
 - Summer Workshop on Analysis of Military Operations and Strategy
