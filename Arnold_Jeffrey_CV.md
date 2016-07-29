@@ -21,6 +21,13 @@ address-state: WA
 address-zip: 98195
 ...
 
+I am an Assistant Professor of Political Science a and Core Faculty Member in the Center for Statistics and the Social Sciences at the University of Washington.
+My research applies statistical and machine learning methods to political science applications.
+My primary substantive area of research is in the quantitative analysis of war dynamics using
+event, text, and financial market data. My methodological research focuses on Bayesian statistical methods, particularly
+
+I completed my Ph.D. in Political Science at the University of Rochester. Previously, I was an Instructor of Political Science and a Pre-doctoral Fellow at the QuanTM Institute at Emory University. Prior to graduate school worked as a research associate in the Money and Payments Studies research group at the Federal Reserve Bank of New York.
+
 # Employment
 
 - *University of Washington*
