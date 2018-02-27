@@ -6,11 +6,11 @@ Some ideas and LaTeX code were taken from the better looking and more impressive
 Dependencies
 ============
 
-- [pandoc](http://johnmacfarlane.net/pandoc/index.html)
-- xelatex
-- [pandocfilters](https://github.com/jgm/pandocfilters) python module
-- [Open Sans](http://www.fontsquirrel.com/fonts/open-sans) font
-- [Sorts Mill Goudy](http://www.fontsquirrel.com/fonts/Sorts-Mill-Goudy) font
+-   [pandoc](http://johnmacfarlane.net/pandoc/index.html)
+-   xelatex
+-   [pandocfilters](https://github.com/jgm/pandocfilters) python module
+-   [Open Sans](http://www.fontsquirrel.com/fonts/open-sans) font
+-   [Sorts Mill Goudy](http://www.fontsquirrel.com/fonts/Sorts-Mill-Goudy) font
 
 Usage
 ==========

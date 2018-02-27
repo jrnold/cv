@@ -12,11 +12,10 @@ TIMESTAMP = $(shell date)
 PANDOC = pandoc
 PANDOC_CITEPROC = pandoc-citeproc
 LATEX = xelatex
-OPTS := -f markdown+yaml_metadata_block
+OPTS := -f markdown+yaml_metadata_block+smart
 OPTS += -M date="$(shell date +'%B %d, %Y')"
 OPTS += -M timestamp="$(TIMESTAMP)"
 OPTS += -M date-meta="$(TIMESTAMP)"
-OPTS += --smart
 OPTS += --filter $(PANDOC_CITEPROC) --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
 OPTS += --filter ./removebib.py
 OPTS += -M pdf-link=$(notdir $(PDF_FILE))
