@@ -117,9 +117,10 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 -   [War and Peace Studies Fellow](http://www.pdartmouth.edu/~dickey/war_peace_fellows.html), John Sloan Dickey Center, Dartmouth College, 2003--2004
 -   [James O. Freedman Presidential Scholar Research Assistant](http://www.dartmouth.edu/~ugar/undergrad/scholars/index.html), Dartmouth College, 2002--2003
 
+
 # Professional & Departmental Service
 
--   Software Carpentry Instructor
+-   [Software Carpentry](https://software-carpentry.org), Certified Instructor, 2016
 -   Organizer Center for Statistics and the Social Sciences (CSSS) Seminar, 2014--*present*
 -   International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
 -   Summer Workshop on Analysis of Military Operations and Strategy
