@@ -1,5 +1,5 @@
 SRC = Arnold_Jeffrey_CV.md
-OUTPUT_DIR = output
+OUTPUT_DIR = docs
 
 TEX_FILE = $(SRC:%.md=%.tex)
 PDF_FILE = $(SRC:%.md=$(OUTPUT_DIR)/%.pdf)
@@ -13,11 +13,10 @@ TIMESTAMP = $(shell date)
 PANDOC = pandoc
 PANDOC_CITEPROC = pandoc-citeproc
 LATEX = xelatex
-OPTS := -f markdown+yaml_metadata_block 
+OPTS := -f markdown+yaml_metadata_block+smart
 OPTS += -M date="$(shell date +'%B %d, %Y')"
 OPTS += -M timestamp="$(TIMESTAMP)"
 OPTS += -M date-meta="$(TIMESTAMP)"
-OPTS += --smart
 OPTS += --filter $(PANDOC_CITEPROC) --bibliography=mypubs.bib --csl=csl/chicago-fullnote-bibliography-syllabus.csl
 OPTS += --filter ./removebib.py
 OPTS += -M pdf-link=$(notdir $(PDF_FILE))
@@ -48,8 +47,11 @@ $(OUTPUT_DIR)/%.pdf: %.tex
 	$(LATEX) -interaction nonstopmode -output-directory $(OUTPUT_DIR) $<
 	-cd $(OUTPUT_DIR) && rm *.log *.aux *.out
 
-build: $(OUTPUT_DIR) $(PDF_FILE) $(HTML_FILE)
-	cp -R css $(OUTPUT_DIR)
+html: $(HTML_FILE)
 
+pdf: $(PDF_FILE)
+
+build: $(OUTPUT_DIR) pdf html
+	cp -R css js $(OUTPUT_DIR)
 
 .PRECIOUS: $(TEX_FILE)
