@@ -1,9 +1,8 @@
 SRC = Arnold_Jeffrey_CV.md
-OUTPUT_DIR = docs
 
 TEX_FILE = $(SRC:%.md=%.tex)
-PDF_FILE = $(SRC:%.md=$(OUTPUT_DIR)/%.pdf)
-HTML_FILE = $(OUTPUT_DIR)/index.html
+PDF_FILE = $(SRC:%.md=%.pdf)
+HTML_FILE = index.html
 
 GITHUB_SRC = https://github.com/jrnold/jrnold-cv
 GIT_TIMESTAMP = $(shell git --no-pager log -1 HEAD --pretty=format:"%cD")
@@ -34,24 +33,19 @@ CSS_FILE = css/jrnoldcv.css
 
 all: build
 
-$(OUTPUT_DIR):
-	-mkdir $(OUTPUT_DIR)
-
-$(OUTPUT_DIR)/index.html: $(SRC) $(HTML_TEMPLATE)
+index.html: $(SRC) $(HTML_TEMPLATE)
 	$(PANDOC) $(OPTS) $(HTML_OPTS) -o $@ $<
 
 %.tex: %.md $(LATEX_TEMPLATE)
 	$(PANDOC) $(OPTS) $(LATEX_OPTS) -o $@ $<
 
-$(OUTPUT_DIR)/%.pdf: %.tex
-	$(LATEX) -interaction nonstopmode -output-directory $(OUTPUT_DIR) $<
-	-cd $(OUTPUT_DIR) && rm *.log *.aux *.out
+%.pdf: %.tex
+	$(LATEX) -interaction nonstopmode $<
 
 html: $(HTML_FILE)
 
 pdf: $(PDF_FILE)
 
-build: $(OUTPUT_DIR) pdf html
-	cp -R css js $(OUTPUT_DIR)
+build: html pdf
 
 .PRECIOUS: $(TEX_FILE)
