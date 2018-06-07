@@ -71,6 +71,7 @@ address-zip: 98195
 
 -   Arnold, Jeffrey B. (2018) [Quantitive Social Science: The R Tidyverse Code](https://jrnold.github.io/qss-tidy/) [[Link from QSS site](http://qss.princeton.press/student-resources-for-quantitative-social-science)]
 -   Arnold, Jeffrey B. (2018) [Exercise Solutions to R for Data Science](https://jrnold.github.io/r4ds-exercise-solutions)
+
 -   @ArnoldChatagnierHollibaugh2017
 
 

@@ -16,8 +16,7 @@ $endif$
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="$css$">
 </head>
 <body>
@@ -36,31 +35,37 @@ $endif$
 </nav>
 
 
-<div id="contact-info" class="row">
-  <div id="contact-address" class="col-md-4">
-    <p>
-      $institution$ <br>
-      <a href="$department-site$">$department$</a> <br>
-      $address-box$ <br>
-      $address-city$, $address-state$ $address-zip$
-    </p>
+<div class="container">
+
+  <div id="contact-info" class="row">
+    <div id="contact-address" class="col-md-4">
+      <p>
+        $institution$ <br>
+        <a href="$department-site$">$department$</a> <br>
+        $address-box$ <br>
+        $address-city$, $address-state$ $address-zip$
+      </p>
+    </div>
+    <div id="contact-media" class="col-md-4">
+      <p>
+        <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
+        <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
+        <i class="fa fa-globe"></i> <a href="$website$">$website-short$</a> <br>
+        <i class="fab fa-linkedin"></i> <a href="$linkedin$">$linkedin-short$</a> <br>
+        <i class="fab fa-github"></i> <a href="$github$">$github-short$</a> <br>
+      </p>
+    </div>
   </div>
-  <div id="contact-media" class="col-md-4">
-    <p>
-      <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
-      <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
-      <i class="fa fa-globe"></i> <a href="$website$">$website-short$</a> <br>
-      <i class="fa fa-linkedin"></i> <a href="$linkedin$">$linkedin-short$</a> <br>
-      <i class="fa fa-github"></i> <a href="$github$">$github-short$</a> <br>
-    </p>
-  </div>
+
+  $body$
+
 </div>
-
-$body$
-
 <div class="footer">
   Last Modified: $timestamp$
 </div>
+
+  <script src="js/fontawesome-all.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

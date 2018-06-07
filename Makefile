@@ -42,6 +42,10 @@ index.html: $(SRC) $(HTML_TEMPLATE)
 %.pdf: %.tex
 	$(LATEX) -interaction nonstopmode $<
 
-build: $(PDF_FILE) $(HTML_FILE)
+html: $(HTML_FILE)
+
+pdf: $(PDF_FILE)
+
+build: html pdf
 
 .PRECIOUS: $(TEX_FILE)
