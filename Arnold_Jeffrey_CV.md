@@ -87,7 +87,7 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 ## R packages on CRAN
 
--   [ggthemes](http://cran.r-project.org/web/packages/ggthemes/index.html). Author, mantainer.
+-   [ggthemes](http://cran.r-project.org/web/packages/ggthemes/index.html). Author, maintainer.
 -   [pollstR](http://cran.r-project.org/web/packages/pollstR/index.html). Author, maintainer.
 -   [smss](http://cran.r-project.org/web/packages/smss/index.html). Author, maintainer.
 -   [margins](https://cran.r-project.org/package=margins). Author.
@@ -103,7 +103,7 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 # Conference Presentations
 
--   Annual Meeting of the Americal Political Science Association, San Francisco, CA, August 31--September 1, 2017: "Covering the Campaign: The 2014 South African Presidential Election".
+-   Annual Meeting of the American Political Science Association, San Francisco, CA, August 31--September 1, 2017: "Covering the Campaign: The 2014 South African Presidential Election".
 -   Annual Meeting of the Midwest Political Science Association, Chicago, IL, April 7--12, 2016: "Ideology, Appointments, and Battlefield Outcomes", "Bayesian Change Points and Linear Filtering with Shrinkage Priors".
 -   2015 Meeting of the Peace Science Society, Oxford, MS, November 12, 2015. The American Civil War and International Relations workshop.
 -   2014 Meeting of the Peace Science Society, Philadelphia, PA, October 9, 2014. Empirical Implications of the Bargaining Model workshop.
@@ -161,7 +161,7 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 # Professional & Departmental Service
 
--   Selection Committee, The Society of Political Methododology [Statistical Software Award](https://www.cambridge.org/core/membership/spm/about-us/awards/statistical-software-award). 
+-   Selection Committee, The Society of Political Methodology [Statistical Software Award](https://www.cambridge.org/core/membership/spm/about-us/awards/statistical-software-award). 
 -   Certified Instructor, [Software Carpentry](https://software-carpentry.org), 2016.
 -   Organizer, Center for Statistics and the Social Sciences (CSSS) Seminar, Fall 2014--Spring 2018.
 -   Organizer, International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
