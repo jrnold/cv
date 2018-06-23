@@ -32,12 +32,12 @@ address-zip: 98195
 
 -   [Emory University](http://www.emory.edu/home/index.html)
 
-    -   Instructor, [Political Science](http://polisci.emory.edu/home/), 
+    -   Instructor, [Political Science](http://polisci.emory.edu/home/),
         September 2013--August 2014
-    -   [QuanTM Pre-doctoral Fellow](http://quantitative.emory.edu), 
-        Institute for Quantitative Theory and Methods (QuanTM), 
+    -   [QuanTM Pre-doctoral Fellow](http://quantitative.emory.edu),
+        Institute for Quantitative Theory and Methods (QuanTM),
         January--May 2013
-    
+
 -   [Federal Reserve Bank of New York](https://www.newyorkfed.org/)
 
     -   Economist, [Money and Payments Studies Function](https://www.newyorkfed.org/research), 2007
@@ -69,7 +69,7 @@ address-zip: 98195
 
 ## Unpublished and Other
 
--   Arnold, Jeffrey B. (2018) [Quantitive Social Science: The R Tidyverse Code](https://jrnold.github.io/qss-tidy/) [[Link from QSS site](http://qss.princeton.press/student-resources-for-quantitative-social-science)]
+-   Arnold, Jeffrey B. (2018) [Quantitative Social Science: The R Tidyverse Code](https://jrnold.github.io/qss-tidy/)
 -   Arnold, Jeffrey B. (2018) [Exercise Solutions to R for Data Science](https://jrnold.github.io/r4ds-exercise-solutions)
 -   @saf
 -   @gendered-lang
@@ -161,7 +161,7 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 # Professional & Departmental Service
 
--   Selection Committee, The Society of Political Methodology [Statistical Software Award](https://www.cambridge.org/core/membership/spm/about-us/awards/statistical-software-award). 
+-   Selection Committee, The Society of Political Methodology [Statistical Software Award](https://www.cambridge.org/core/membership/spm/about-us/awards/statistical-software-award).
 -   Certified Instructor, [Software Carpentry](https://software-carpentry.org), 2016.
 -   Organizer, Center for Statistics and the Social Sciences (CSSS) Seminar, Fall 2014--Spring 2018.
 -   Organizer, International Studies Association (ISA) 2014 Working Group,  "Forecasting International Events", sponsored by The Scientific Study of International Processes Section (SSIP). With Curtis Signorino.
