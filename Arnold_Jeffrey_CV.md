@@ -11,22 +11,25 @@ github-short: github.com/jrnold
 linkedin: https://www.linkedin.com/in/jrnold
 linkedin-short: www.linkedin.com/in/jrnold
 email-personal: jeffrey.arnold@gmail.com
-email-work: jrnold@uw.edu
-institution: University of Washington
-department: Department of Political Science
-department-site: http://www.polisci.washington.edu/
-address-box: Box 353530
-address-city: Seattle
-address-state: WA
-address-zip: 98195
+email-work: null
+institution: null
+department: null
+department-site: null
+address-box: null
+address-city: null
+address-state: null
+address-zip: null
 ---
 
+# Employment/Experience
 
-# Employment
+-   [Insight](https://www.insightdatascience.com/)
+
+    -   [Data Science Fellow](https://www.insightdatascience.com/), San Francisco. September 2018--October 2018
 
 -   [University of Washington](https://www.washington.edu/)
 
-    -   Core Faculty Member, [Center for Statistics and the Social Sciences](https://www.csss.washington.edu/), September 2014--*present*
+    -   Core Faculty Member, [Center for Statistics and the Social Sciences](https://www.csss.washington.edu/), September 2014--September 2018
     -   Assistant Professor, [Political Science](https://www.polisci.washington.edu), January 2015--*present*
     -   Acting Assistant Professor of [Political Science](https://www.polisci.washington.edu/), September 2014--December 2015
 
@@ -43,7 +46,6 @@ address-zip: 98195
     -   Economist, [Money and Payments Studies Function](https://www.newyorkfed.org/research), 2007
     -   Assistant Economist, [Money and Payments Studies Function](https://www.newyorkfed.org/research), 2005--2006
     -   Research Associate, [Payments Studies Function](https://www.newyorkfed.org/research), 2004--2005
-
 
 # Education
 
@@ -118,13 +120,11 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 # Honors & Awards
 
-<!-- Graduate -->
--   [Star Lab Poster Award](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester
+-   [Star Lab Poster Award](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester, 2012
 -   [Star Lab Best Conference Presentation](http://www.rochester.edu/college/psc/thestarlab/awards), The Star Lab, University of Rochester, 2011--2012
 -   APSA Annual Meeting Graduate Student Travel Grant, 2011
 -   Graduate Student Teaching Award, Department of Political Science, University of Rochester, 2011
 -   [Sproull Fellowship](http://www.rochester.edu/gradstudies/sproull.html), University of Rochester, 2007--2009
-<!-- undergraduate -->
 -   [John Carroll International Economics](http://carrollround.georgetown.edu/) Scholar Prize for Outstanding Contribution, 2004
 -   [James O. Freedman Presidential Scholar](http://www.dartmouth.edu/~ugar/undergrad/scholars/index.html), Dartmouth College, 2004
 -   [War and Peace Studies Fellow](http://www.pdartmouth.edu/~dickey/war_peace_fellows.html), John Sloan Dickey Center, Dartmouth College, 2003--2004
@@ -136,23 +136,40 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 
 ### Graduate
 
--   CS&SS/STAT 564: Bayesian Statistics University of Washington, Spring 2018. <https://uw-csss-564.github.io/2018/>
--   POLS/CS&SS 503: Advanced Quantitative Political Methodology, University of Washington, Spring 2018. <https://uw-pols503.github.io/2018/>
--   POLS/CS&SS 501: Advanced Political Research Design and Analysis, University of Washington, Winter 2017. <https://uw-pols501.github.io/2018/>
+-   CS&SS/STAT 564: Bayesian Statistics for Social Sciences,
+    University of Washington, Spring 2018. <https://uw-csss-564.github.io/2018/>
 
--   CS&SS/STAT 564: Bayesian Statistics University of Washington, Spring 2017. <https://uw-csss-564.github.io/2017/>
--   POLS/CS&SS 503: Advanced Quantitative Political Methodology, University of Washington, Spring 2017. <https://uw-pols503.github.io/2017/>
--   POLS/CS&SS 501: Advanced Political Research Design and Analysis, University of Washington, Winter 2017. <https://uw-pols501.github.io/2017/>
+-   POLS/CS&SS 503: Advanced Quantitative Political Methodology,
+    University of Washington, Spring 2018. <https://uw-pols503.github.io/2018/>
 
--   POLS/CS&SS 503: Advanced Quantitative Political Methodology, University of Washington, Spring 2016. <https://uw-pols503.github.io/2016/>
--   POLS/CS&SS 501: Advanced Political Research Design and Analysis, University of Washington, Winter 2016. <https://uw-pols501.github.io/2015/>
+-   POLS/CS&SS 501: Advanced Political Research Design and Analysis,
+    University of Washington, Winter 2017. <https://uw-pols501.github.io/2018/>
 
--   POLS/CS&SS 503: Advanced Quantitative Political Methodology, University of Washington, Spring 2015. <https://uw-pols503.github.io/2015/>
+-   CS&SS/STAT 564: Bayesian Statistics for the Social Sciences,
+    University of Washington, Spring 2017. <https://uw-csss-564.github.io/2017/>
+
+-   POLS/CS&SS 503: Advanced Quantitative Political Methodology,
+    University of Washington, Spring 2017. <https://uw-pols503.github.io/2017/>
+
+-   POLS/CS&SS 501: Advanced Political Research Design and Analysis,
+    University of Washington, Winter 2017. <https://uw-pols501.github.io/2017/>
+
+-   POLS/CS&SS 503: Advanced Quantitative Political Methodology,
+    University of Washington, Spring 2016. <https://uw-pols503.github.io/2016/>
+
+-   POLS/CS&SS 501: Advanced Political Research Design and Analysis,
+    University of Washington, Winter 2016. <https://uw-pols501.github.io/2015/>
+
+-   POLS/CS&SS 503: Advanced Quantitative Political Methodology, University of
+    Washington, Spring 2015. <https://uw-pols503.github.io/2015/>
 
 ### Undergraduate
 
--   CS&SS/SOC/STAT 203: Statistical Concepts and Methods for the Social Sciences, University of Washington, Winter 2015.
+-   CS&SS/SOC/STAT 203: Statistical Concepts and Methods for the Social Sciences,
+    University of Washington, Winter 2015.
+
 -   POLS 208: Political Science Methods. Emory University. Spring 2015.
+
 -   POLS 208: Political Science Methods. Emory University. Fall 2014.
 
 ## Short Courses
@@ -168,7 +185,7 @@ See <https://github.com/jrnold> for open-source software and ongoing projects.
 -   Summer Workshop on Analysis of Military Operations and Strategy
 (SWAMOS).  Saltzman Institute for War and Peace Studies, Columbia
 University, 2012.
--   Reviewer: *Political Analysis*, *Conflict Management and Peace Science*, *International Interactions*, *International Studies Quarterly*
+-   Reviewer: *Political Analysis*, *R Journal*, *Conflict Management and Peace Science*, *International Interactions*, *International Studies Quarterly*
 -   Member:
     American Political Science Society,
     Midwest Political Science Society,

@@ -55,6 +55,7 @@
 
 % Contact Info ----------------------------------
 
+$if(institution)$
 \begin{minipage}[t]{2.95in}
  \flushright {\footnotesize
  $institution$, \\
@@ -62,14 +63,14 @@
  $address-box$, \\
  $address-city$,
  \textsc{$address-state$} $address-zip$.}
-
 \end{minipage}
+$endif$
 \hfill
 \hfill
 \begin{minipage}[t]{2in}
   \flushright \footnotesize
   {\scriptsize  \href{mailto:$email-personal$}{$email-personal$} \, \faEnvelope} \\
-  {\scriptsize  \href{mailto:$email-work$}{$email-work$} \, \faEnvelope} \\
+  $if(email-work)${\scriptsize  \href{mailto:$email-work$}{$email-work$} \, \faEnvelope} \\$endif$
   {\scriptsize  \href{$website$}{$website-short$} \, \faGlobe} \\
   {\scriptsize  \href{$linkedin$}{$linkedin-short$} \, \faLinkedin} \\
   {\scriptsize  \href{$github$}{$github-short$} \, \faGithub} \\
@@ -77,7 +78,6 @@
 \medskip
 
 %------------------------
-
 
 \begin{flushleft}
   \Large \sffamily \scshape \bfseries $author$

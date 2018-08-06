@@ -37,7 +37,9 @@ $endif$
 
 <div class="container">
 
+
   <div id="contact-info" class="row">
+    $if(institution)$
     <div id="contact-address" class="col-md-4">
       <p>
         $institution$ <br>
@@ -46,10 +48,11 @@ $endif$
         $address-city$, $address-state$ $address-zip$
       </p>
     </div>
+    $endif$
     <div id="contact-media" class="col-md-4">
       <p>
         <i class="fa fa-envelope"></i> <a href="$email-personal$">$email-personal$</a> <br>
-        <i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>
+        $if(email-work)$<i class="fa fa-envelope"></i> <a href="$email-work$">$email-work$</a> <br>$endif$
         <i class="fa fa-globe"></i> <a href="$website$">$website-short$</a> <br>
         <i class="fab fa-linkedin"></i> <a href="$linkedin$">$linkedin-short$</a> <br>
         <i class="fab fa-github"></i> <a href="$github$">$github-short$</a> <br>
